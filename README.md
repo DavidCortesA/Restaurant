@@ -54,12 +54,12 @@ Para instalar las dependencias del proyecto, siga los siguientes pasos:
 1. Clonar este repositorio en su computadora 🖥️:
 
 ```sh
-git clone https://github.com/su-usuario/landing-page-restaurante.git
+git clone https://github.com/DavidCortesA/Restaurant.git
 ```
 
 2. Ingresar al directorio del proyecto 📂:
 ```sh
-cd landing-page-restaurante
+cd Restaurant
 ```
 
 3. Instalar las dependencias del proyecto 📦:
@@ -71,7 +71,7 @@ npm install
 Para iniciar el proyecto en modo de desarrollo, ejecute el siguiente comando:
 
 ```sh
-npm start
+npm run start
 ```
 
 Luego abra su navegador en la dirección http://localhost:8080 🌐.
