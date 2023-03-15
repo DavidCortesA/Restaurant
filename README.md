@@ -58,7 +58,6 @@ git clone https://github.com/su-usuario/landing-page-restaurante.git
 ```
 
 2. Ingresar al directorio del proyecto 📂:
-3. 
 ```sh
 cd landing-page-restaurante
 ```
