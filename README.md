@@ -1,4 +1,4 @@
-<h1 align="center">🍽️ Landing Page de Restaurante 🍔</h1>
+## 🍽️ Landing Page de Restaurante 🍔
 
 Este proyecto es una landing page para un restaurante ficticio, diseñado para mejorar mis conocimientos en React, Sass, Material UI, ESLint, Babel y Webpack.
 
@@ -20,31 +20,32 @@ El proyecto está organizado en la siguiente estructura de directorios:
 .
 ├── public 🌍
 │   ├── index.html 📄
-│   └── images 🖼️
 └── src 📁
+    ├── Assets  🖼
+    │   ├── images 🖼
+    │   ├── images 🖼
+    │   ├── images 🖼
     ├── components 🧩
+    │   ├── About 🙎‍♂️
     │   ├── Footer 🦶
-    │   ├── Header 🧢
-    │   ├── Menu 📋
-    │   └── MenuItem 🍴
-    ├── pages 📃
-    │   └── Home 🏠
+    │   ├── Contact 📓
+    │   ├── Testimonial 🧑
+    │   ├── Home 🧢
+    │   ├── Navbar 📋
+    │   └── Work 🦺
     ├── styles 🎨
     │   ├── _variables.scss 🎨
-    │   └── main.scss 💄
-    ├── App.jsx 📝
-    ├── index.js 📝
-    └── theme.js 🎨
+    │   └── style.scss 💄
+    ├── App.js 📝
+    └── index.js 📝
 ```
 
 - La carpeta public 🌍 contiene los archivos estáticos del proyecto, como el archivo HTML y las imágenes.
 - La carpeta src 📁 contiene el código fuente del proyecto.
 - La carpeta src/components 🧩 contiene los componentes de React reutilizables.
-- La carpeta src/pages 📃 contiene las páginas del sitio web.
 - La carpeta src/styles 🎨 contiene los archivos de estilos en Sass.
-- El archivo App.jsx 📝 es el punto de entrada del proyecto y contiene la lógica principal.
+- El archivo App.js 📝 es el punto de entrada del proyecto y contiene la lógica principal.
 - El archivo index.js 📝 es el archivo de entrada de Webpack y se encarga de renderizar la aplicación en el DOM.
-- El archivo theme.js 🎨 contiene la configuración del tema de Material UI.
 
 ### 🚀 Instalación y Ejecución 🚀
 
