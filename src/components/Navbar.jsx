@@ -46,11 +46,11 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <ul className="navbar__icons">
-        <li href="">Home</li>
-        <li href="">About</li>
-        <li href="">Testimonials</li>
-        <li href="">Contact</li>
-        <li href="">
+        <li>Home</li>
+        <li>About</li>
+        <li>Testimonials</li>
+        <li>Contact</li>
+        <li>
           <BsCart2 className="navbar__icons--cart" />
         </li>
         <button className="primary__button">Bookings Now</button>
