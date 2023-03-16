@@ -4,10 +4,10 @@ import './styles/styles.scss';
 
 const App = () => {
   return (
-    <>
+    <div className='App'>
       <Navbar />
       <h1>Hola mundo</h1>
-    </>
+    </div>
   )
 }
 

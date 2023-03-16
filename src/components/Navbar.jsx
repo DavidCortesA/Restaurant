@@ -45,17 +45,17 @@ const Navbar = () => {
       <div className="navbar__logo">
         <img src={Logo} alt="" />
       </div>
-      <div className="navbar__icons">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
-      </div>
-      <div className="navbar-menu-container">
+      <ul className="navbar__icons">
+        <li href="">Home</li>
+        <li href="">About</li>
+        <li href="">Testimonials</li>
+        <li href="">Contact</li>
+        <li href="">
+          <BsCart2 className="navbar__icons--cart" />
+        </li>
+        <button className="primary__button">Bookings Now</button>
+      </ul>
+      <div className="navbar__container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">

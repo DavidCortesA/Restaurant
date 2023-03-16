@@ -1,9 +1,5 @@
 @import './navbar';
-
-@mixin dFlex(){
-  display: flex;
-  align-items: center;
-  justify-content: space--between;
+@import './variables';
 
 *{
   margin: 0;
