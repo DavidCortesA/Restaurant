@@ -1,0 +1,7 @@
+$sizeText: 1.1rem;
+
+@mixin dFlex($alignItems: center, $justifyContent: center){
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
