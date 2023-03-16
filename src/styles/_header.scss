@@ -1,0 +1,111 @@
+@import './variables';
+
+.home{
+    &__banner{
+        position: relative;
+        display: flex;
+        padding-top: 3rem;
+        &--bannerImage{
+            position: absolute;
+            top: -100px;
+            right: -170px;
+            z-index: -2;
+            max-width: 700px;
+        }
+    }
+    &__section{
+        flex: 1;
+        @include dFlex($alignItems: flex-start);
+        flex-direction: column;
+        &--image{
+            max-width: 600px;
+            flex: 1;
+        }
+        &--title{
+            font-size: clamp(2rem, 5vw, 4rem);
+            color: #4c4c4c;
+            max-width: 600px;
+        }
+        &--text{
+            font-size: clamp(1rem, 3vw, ($sizeText + 0.4rem));
+            max-width: 500px;
+            color: #6a6a6a;
+            margin: 1.5rem 0rem;
+        }
+        &--secondaryButton{
+            padding: 1rem 2.5rem;
+            background-color: #fe9e0d;
+            outline: none;
+            border: none;
+            border-radius: 5rem;
+            font-size: $sizeText;
+            cursor: pointer;
+            font-weight: 600;
+            color: white;
+            transition: 0.2s;
+            @include dFlex();
+            svg {
+                margin-left: 0.75rem;
+                font-size: $sizeText + 0.4rem;
+            }
+            &:hover{
+                background-color: #e48f0f;
+            }
+        }
+    }
+}
+
+@media (max-width: $large){
+    .home{
+        &__banner{
+            &--bannerImage{
+                max-width: 600px;
+            }
+        }
+    }
+}
+
+@media (max-width: $medium){
+    .home{
+        &__banner{
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            &--bannerImage{
+                max-width: 450px;
+            }
+        }
+        &__section{
+            justify-content: center;
+            align-items: center;
+            margin-top: 4rem;
+            &--image{
+                width: 100%;
+                max-width: 400px;
+            }
+            &--title{
+                text-align: center;
+                max-width: 90%;
+            }
+            &--text{
+                text-align: center;
+                max-width: 80%;
+            }
+            &--secondaryButton{
+                font-size: $sizeText - 0.1rem;
+                padding: 0.8rem 2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width:$small) {
+    .home{
+        &__banner{
+            &--bannerImage{
+                display: none;
+            }
+        }
+    }
+}
