@@ -1,4 +1,7 @@
 $sizeText: 1.1rem;
+$small: 600px;
+$medium: 800px;
+$large: 1000px;
 
 @mixin dFlex($alignItems: center, $justifyContent: center){
   display: flex;

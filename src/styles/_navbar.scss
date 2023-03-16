@@ -6,6 +6,12 @@
   &__container{
     display: none;
   }
+  &__logo{
+    img{
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
   &__icons {
     @include dFlex();
     li{
@@ -27,9 +33,21 @@
     cursor: pointer;
     font-weight: 600;
     transition: 0.2s;
+    &:hover{
+      background-color: rgb(234,234,234);
+    }
   }
   &__card{
     font-size: $sizeText;
   }
 }
 
+
+@media (max-width: $large){
+  .navbar__icons{
+    li{
+      margin-right: 1rem;
+      font-size: large;
+    }
+  }
+}
