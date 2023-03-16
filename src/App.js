@@ -1,11 +1,13 @@
 import React from 'react';
-import Home from './components/Home';
 import './styles/styles.scss';
+import Home from './components/Home';
+import About from './components/About';
 
 const App = () => {
   return (
     <div className='App'>
       <Home />
+      <About />
     </div>
   )
 }
