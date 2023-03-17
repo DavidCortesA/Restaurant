@@ -46,6 +46,21 @@ body{
   margin: 1.5rem 0rem;
 }
 
+.primaryButton {
+  padding: 0.9rem 1.75rem;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: $sizeText;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  &:hover{
+    background-color: rgb(234, 234, 234);
+  }
+}
+
 .secondaryButton{
   padding: 1rem 2.5rem;
   background-color: #fe9e0d;
@@ -64,5 +79,30 @@ body{
   }
   &:hover{
       background-color: #e48f0f;
+  }
+}
+
+@media (max-width: $large){
+  .primaryButton{
+      font-size: $sizeText - 0.1rem;
+  }
+}
+
+@media (max-width: $medium){
+  .primary-heading {
+    text-align: center;
+    max-width: 90%;
+  }
+  .primary-text {
+    text-align: center;
+    max-width: 80%;
+  }
+  .secondaryButton {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }
+  .primary-subheading {
+    text-align: center;
   }
 }

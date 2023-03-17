@@ -54,7 +54,7 @@ const Navbar = () => {
         <li>
           <BsCart2 className="navbar__icons--cart" />
         </li>
-        <button className="primary__button">Bookings Now</button>
+        <button className="primaryButton">Bookings Now</button>
       </ul>
       <div className="navbar__container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

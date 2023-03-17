@@ -22,7 +22,7 @@ const About = () => {
         <p className="primary-text">Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.</p>
         <div className="about__section--buttons">
           <button className="secondaryButton">Learn More</button>
-          <button className="about__section--videoButton">
+          <button className="videoButton">
             <BsFillPlayCircleFill /> Watch Video
           </button>
         </div>

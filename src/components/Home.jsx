@@ -13,14 +13,14 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home__section">
-          <h1 className="home__section--title">
+          <h1 className="primary-heading">
           Your Favorite Food Delivered Hot & Fresh
           </h1>
-          <p className="home__section--text">
+          <p className="primary-text">
             Healthy switcher chefs do all the prep work, like peeding, chopping
             & marinating, so you can cook a fresh food.
           </p>
-          <button className="home__section--secondaryButton">
+          <button className="secondaryButton">
             Order Now <FiArrowRight />{" "}
           </button>
         </div>
