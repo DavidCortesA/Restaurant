@@ -3,6 +3,7 @@
 @import './header';
 @import './about';
 @import './work';
+@import './testimonial';
 
 *{
   margin: 0;
@@ -105,5 +106,8 @@ body{
   }
   .primary-subheading {
     text-align: center;
+  }
+  .App{
+    max-width: 95vw;
   }
 }
