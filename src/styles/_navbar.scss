@@ -1,29 +1,34 @@
 @import './variables';
 
 .navbar{
-  @include dFlex($justifyContent:space-between);
-  min-height: 90px;
-  &__container{
-    display: none;
-  }
-  &__logo{
-    img{
-      font-size: 1.5rem;
-      cursor: pointer;
+    @include dFlex($justifyContent:space-between);
+    min-height: 90px;
+    &__container {
+        display: none;
+        svg{
+            font-size: $sizeText + .4rem;
+            cursor: pointer;
+        }
     }
-  }
-  &__icons {
-    @include dFlex();
-    li{
-      text-decoration: none;
-      margin-right: 3rem;
-      color: black;
-      font-size: $sizeText;
-      font-weight: 600;
-      list-style: none;
+    &__icons{
+        @include dFlex();
+        flex-direction: row;
+        li {
+            margin-right: 3rem;
+            text-decoration: none;
+            color: black;
+            font-size: $sizeText;
+            font-weight: 600;
+            list-style: none;
+            cursor: pointer;
+        }
+        &--cart{
+            font-size: $sizeText + 0.05rem;
+        }
     }
-  }
-  &__button{
+}
+
+.primary__button{
     padding: 0.9rem 1.75rem;
     background-color: white;
     outline: none;
@@ -34,20 +39,33 @@
     font-weight: 600;
     transition: 0.2s;
     &:hover{
-      background-color: rgb(234,234,234);
+        background-color: rgb(234, 234, 234);
     }
-  }
-  &__card{
-    font-size: $sizeText;
-  }
 }
 
-
 @media (max-width: $large){
-  .navbar__icons{
-    li{
-      margin-right: 1rem;
-      font-size: large;
+    .navbar{
+        &__icons{
+            li {
+                margin-right: 1rem;
+            }
+        }
     }
-  }
+    .primary__button{
+        font-size: $sizeText - 0.1rem;
+    }
+}
+
+@media (max-width: $medium){
+    .navbar{
+        &__logo{
+            max-width: 140px;
+        }
+        &__container{
+            display: flex;
+        }
+        &__icons{
+            display: none;
+        }
+    }
 }

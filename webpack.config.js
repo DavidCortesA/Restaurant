@@ -28,7 +28,6 @@ const config = {
       template: 'public/index.html',
       hash: true
     }),
-
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
@@ -61,7 +60,12 @@ const config = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
-  },
+    alias:{
+      "@components": path.resolve(__dirname, "src/components"),
+      "@assets": path.resolve(__dirname, "src/Assets"),
+      "@styles": path.resolve(__dirname, "src/styles"),
+    },
+  }
 };
 
 module.exports = () => {
