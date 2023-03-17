@@ -40,6 +40,7 @@ const Navbar = () => {
       icon: <ShoppingCartRoundedIcon />,
     },
   ];
+
   return (
     <nav className="navbar">
       <div className="navbar__logo">
