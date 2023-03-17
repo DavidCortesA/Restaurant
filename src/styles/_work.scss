@@ -1,0 +1,53 @@
+@import './variables';
+
+.work{
+    &__section{
+        margin-top: 15rem;
+        &--top{
+            @include dFlex();
+            flex-direction: column;
+            h1{
+                max-width: 700px !important; 
+            }
+            p{
+                text-align: center;
+                max-width: 600px !important;
+            }
+        }
+        &--bottom{
+            margin-top: 5rem;
+            @include dFlex();
+            flex-wrap: wrap;
+        }
+        &--bottomInfo{
+            width: 290px;
+            min-height: 350px;
+            background-color: white;
+            padding: 1rem 2rem;
+            @include dFlex();
+            flex-direction: column;
+            text-align: center;
+            border-radius: 1rem;
+            color: #505050;
+            margin: 1rem 2rem;
+            h2 {
+                margin: 1rem 0rem;
+            }
+            p{
+                flex: 1;
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media (max-width: $medium){
+    .work__section{
+        margin-top: 10rem;
+        &--bottom{
+            margin-top: 1rem;
+        }
+    }
+}

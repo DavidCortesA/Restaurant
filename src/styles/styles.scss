@@ -2,6 +2,7 @@
 @import './navbar';
 @import './header';
 @import './about';
+@import './work';
 
 *{
   margin: 0;
@@ -22,7 +23,7 @@ img{
 }
 
 body{
-  background-color: #f6f6f6;
+  background-color: #ebebeb;
   max-width: 100%;
   overflow-x: hidden;
 }
