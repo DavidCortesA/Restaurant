@@ -15,7 +15,7 @@ const App = () => {
       <Work /> 
       <Testimonial />
       <Contact />
-      {/* <Footer /> en espera */}
+      <Footer />
     </div>
   )
 }

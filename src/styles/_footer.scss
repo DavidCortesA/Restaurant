@@ -1,0 +1,50 @@
+@import './variables';
+
+.footer{
+  margin: 6rem 0rem;
+  display: flex;
+  margin-top: 10rem;
+  &__sectionOne{
+    &--logo{
+      max-width: 110px;
+    }
+  }
+  &--icons{
+    margin-top: 2.5rem;
+    svg {
+      font-size: $sizeText + 0.4rem;
+      margin-right: 1.25rem;
+      color: #585858;
+    }
+  }
+  &__sectionTwo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    &--columns{
+      display: flex;
+      flex-direction: column;
+      min-width: 190px;
+      span {
+        margin: 0.25rem 0rem;
+        font-weight: 600;
+        color: #4c4c4c;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: $medium){
+  .footer{
+    flex-direction: column;
+    margin-top: 2rem;
+    &__sectionTwo{
+      flex-direction: column;
+      margin-top: 2rem;
+      &--columns{
+        margin: 1rem 0rem;
+      }
+    }
+  }
+}

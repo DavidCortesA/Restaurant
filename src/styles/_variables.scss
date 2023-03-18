@@ -2,6 +2,12 @@ $sizeText: 1.1rem;
 $small: 600px;
 $medium: 800px;
 $large: 1000px;
+$orange: #fe9e0d;
+$orangeDark:  #e48f0f;
+$gray: #585858;
+$grayLight: #6a6a6a;
+$grayDark: #4c4c4c;
+$graySilver: #808080;
 
 @mixin dFlex($alignItems:center, $justifyContent: center){
     display: flex;
