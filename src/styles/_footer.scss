@@ -8,13 +8,13 @@
     &--logo{
       max-width: 110px;
     }
-  }
-  &--icons{
-    margin-top: 2.5rem;
-    svg {
-      font-size: $sizeText + 0.4rem;
-      margin-right: 1.25rem;
-      color: $gray;
+    &--icons{
+      margin-top: 2.5rem;
+      svg {
+        font-size: $sizeText + 0.4rem;
+        margin-right: 1.25rem;
+        color: $gray;
+      }
     }
   }
   &__sectionTwo{

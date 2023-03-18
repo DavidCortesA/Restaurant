@@ -6,12 +6,14 @@
 @import './testimonial';
 @import './contact';
 @import './variables';
+@import './footer';
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Reem Kufi', sans-serif;
+  scroll-behavior: smooth;
 }
 
 img{
@@ -22,7 +24,7 @@ img{
   min-height: 100vh;
   width: 85vw;
   max-width: 1900px;
-  margin: 0rem auto;
+  margin: 0 auto;
 }
 
 body{

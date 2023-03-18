@@ -15,12 +15,13 @@
         flex-direction: row;
         li {
             margin-right: 3rem;
-            text-decoration: none;
-            color: black;
-            font-size: $sizeText;
-            font-weight: 600;
             list-style: none;
-            cursor: pointer;
+            a {
+                text-decoration: none;text-decoration: none;
+                color: black;
+                font-size: $sizeText;
+                font-weight: 600;
+            }
         }
         &--cart{
             font-size: $sizeText + 0.05rem;
