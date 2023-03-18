@@ -14,7 +14,7 @@
     svg {
       font-size: $sizeText + 0.4rem;
       margin-right: 1.25rem;
-      color: #585858;
+      color: $gray;
     }
   }
   &__sectionTwo{
@@ -28,7 +28,7 @@
       span {
         margin: 0.25rem 0rem;
         font-weight: 600;
-        color: #4c4c4c;
+        color: $grayDark;
         cursor: pointer;
       }
     }

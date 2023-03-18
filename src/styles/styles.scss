@@ -33,20 +33,20 @@ body{
 
 .primary-heading{
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #4c4c4c;
+  color: $grayDark;
   max-width: 600px;
 }
 
 .primary-subheading{
   font-weight: 700;
-  color: #fe9e0d;
+  color: $orange;
   font-size: 1.15rem;
 }
 
 .primary-text{
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
-  color: #6a6a6a;
+  color: $grayLight;
   margin: 1.5rem 0rem;
 }
 
@@ -67,7 +67,7 @@ body{
 
 .secondaryButton{
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: $orange;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -82,7 +82,7 @@ body{
       font-size: $sizeText + 0.4rem;
   }
   &:hover{
-      background-color: #e48f0f;
+      background-color: $orangeDark;
   }
 }
 

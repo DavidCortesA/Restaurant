@@ -32,7 +32,7 @@
         font-size: $sizeText;
         cursor: pointer;
         font-weight: 600;
-        color: #484848;
+        color: $grayDark;
         transition: 0.2s;
         @include dFlex();
         svg {
@@ -68,7 +68,7 @@
             transition: 0.2s;
           }
           &:hover{
-            color: #808080;
+            color: $graySilver;
           }
         }
       }
