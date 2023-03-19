@@ -31,18 +31,21 @@
 @media (max-width: $medium) {
   .contact{
     &__page{
-      &--from {
-        padding: 0.5rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1rem;
+      &--form{
         input {
-          font-size: 1rem;
-          max-width: 100%;
-          padding: 0.5rem 1rem;
-          margin-bottom: 0.8rem;
-          text-align: center;
+          font-size: $sizeText - 0.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $small){
+  .contact{
+    &__page{
+      &--form{
+        input {
+          font-size: $sizeText - 0.3rem;
         }
       }
     }
