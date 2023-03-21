@@ -2,6 +2,8 @@
 
 Este proyecto es una landing page para un restaurante ficticio, diseñado para mejorar mis conocimientos en React, Sass, Material UI, ESLint, Babel y Webpack.
 
+Demo - [Demo](https://davidcortesa.github.io/restaurant/)
+
 ### 🛠️ Tecnologías utilizadas 🛠️
 
 - React ⚛️
